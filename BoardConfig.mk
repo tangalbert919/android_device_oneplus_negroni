@@ -5,9 +5,9 @@
 #
 
 # Include the common OEM chipset BoardConfig.
-include device/oneplus/sm8350-common/BoardConfigCommon.mk
+include device/oneplus/sm8450-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/oneplus/lemonadep
+DEVICE_PATH := device/oneplus/negroni
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
@@ -20,4 +20,4 @@ TARGET_RECOVERY_DENSITY := xxhdpi
 TARGET_RECOVERY_UI_MARGIN_HEIGHT := 126
 
 # Include the proprietary files BoardConfig.
-include vendor/oneplus/lemonadep/BoardConfigVendor.mk
+include vendor/oneplus/negroni/BoardConfigVendor.mk
